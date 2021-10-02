@@ -1,7 +1,4 @@
 const clock = document.querySelector(".clock-main")
-console.log(clock);
-
-
 
 function getTime(){
     const date = new Date();
