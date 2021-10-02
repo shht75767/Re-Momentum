@@ -3,13 +3,12 @@ const todoInput = todoForm.querySelector(".todo_input")
 const ul = document.querySelector(".todo-list")
 const clearUl = document.querySelector(".clear-todo-list")
 
-
 let toDos = []
 
 function saveTodo() {
     localStorage.setItem("todo_list", JSON.stringify(toDos))
-}
 
+}
 
 function deleteTodo(event){
     const li = event.target.parentElement;
@@ -17,17 +16,13 @@ function deleteTodo(event){
     toDos = toDos.filter((todo) => todo.id != li.id)
     saveTodo()
 }
-let claerTodos = []
+let clearTodos = []
 
 function clearTodo(event){
-    const li2 = event.target.parentElement;
-    console.log(event);
-    const li = li2
-    console.log(li);
-    clearUl.appendChild(li2)
-    saveTodo()
-
+    
+    
 }
+
 function paintTodo(todoObj){
     const li = document.createElement("li")
     const span = document.createElement("span")
@@ -45,9 +40,6 @@ function paintTodo(todoObj){
     btn2.addEventListener("click", clearTodo)
 }
 
-
-
-
 function todoSubmit(event) {
     event.preventDefault()
     const todo = todoInput.value
@@ -56,9 +48,8 @@ function todoSubmit(event) {
         text : todo,
         id : Math.random()
     }
-    claerTodos.push(todoObj)
+    clearTodos.push(todoObj)
     toDos.push(todoObj)
-    console.log(todoObj);
     paintTodo(todoObj)
     saveTodo()
 }
