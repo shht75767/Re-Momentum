@@ -1,0 +1,9 @@
+.weather {
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+    font-weight: 500;
+}
+.weather_span:last-child{
+    margin-left: 3px;
+}

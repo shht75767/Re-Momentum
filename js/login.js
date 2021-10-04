@@ -4,7 +4,7 @@ const loginInput = loginForm.querySelector(".login-input")
 const h1 = document.querySelector(".paint-username")
 
 function paintUserName(userName) {
-    h1.innerText = `Hello ${userName}!`
+    h1.innerText = `Hello ${userName} :) `
     loginForm.classList.add("hidden")
 }
 

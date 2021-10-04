@@ -1,0 +1,39 @@
+.underscore {
+    text-decoration: line-through-textDeco;
+}
+
+.todo {
+    margin-left: 30px;
+    width: 45%;
+    height: 300px;
+    border-radius: 40px;
+    background-color: rgba(138, 144, 153, 0.3);
+}
+.todo_form {
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.todo_input {
+    height: 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
+.todo-list {
+    padding-left: 50px;
+
+
+}
+.todo-list button{
+    border: none;
+    background-color: rgba(138, 144, 153, 0);
+    font-size: 15px;
+    padding-left: 3px;
+
+}
+.todo-list li {
+    margin-bottom: 4px;
+}
+.todo-list span {
+    font-size: 20px;
+}

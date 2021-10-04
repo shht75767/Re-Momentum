@@ -1,3 +1,37 @@
+
+.login {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.login-input {
+    opacity: 0.8;
+    width: 200px;
+    height: 40px;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.login-input:hover,
+.login-input:active {
+    border : 1px solid black
+}
+.login-btn {
+    margin-left: 10px;
+    width: 70px;
+    height: 46px;
+
+}
+.paint-username{
+    font-style: italic;
+    color:darkslateblue;
+}
+
+
+
+
 .hidden {
     display: none;
 }
