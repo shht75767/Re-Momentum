@@ -8,44 +8,47 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-      <div class="weather">
-        <span class="weather_span"></span>
-        <span class="weather_span"></span>
-      </div>
-      <div class="login">
-        <form class="login-form">
-          <input
-            type="text"
-            class="login-input"
-            placeholder="write your name!"
-            required
-            maxlength="20"
-          />
-          <input type="button" class="login-btn" value="Login" />
-        </form>
-        <h1 class="paint-username"></h1>
-      </div>
-      <div class="clock">
-        <h1 class="clock-main">00:00:00</h1>
-      </div>
+    <div class="weather">
+      <span class="weather_span"></span>
+      <span class="weather_span"></span>
     </div>
-    <div class="todo">
-      <form class="todo_form">
+    <div class="login">
+      <form class="login-form">
         <input
           type="text"
-          class="todo_input"
-          placeholder="write your todo"
+          class="login-input"
+          placeholder="write your name!"
           required
+          maxlength="20"
         />
+        <input type="button" class="login-btn" value="Login" />
       </form>
-      <ul class="todo-list"></ul>
+      <h1 class="paint-username"></h1>
     </div>
+    <div class="clock">
+      <h1 class="clock-main">00:00:00</h1>
+    </div>
+    <div class="flex">
+      <div class="todo">
+        <form class="todo_form">
+          <input
+            type="text"
+            class="todo_input"
+            placeholder="write your todo"
+            required
+          />
+        </form>
+        <ul class="todo-list"></ul>
+      </div>
+      <div class="music">
+        <h2 class="music-today">오늘의 추천 음악</h2>
+        <span></span>
+      </div>
     </div>
     <script src="js/clock.js"></script>
     <script src="js/login.js"></script>
     <script src="js/weather.js"></script>
     <script src="js/todo.js"></script>
     <script src="js/background.js"></script>
-
   </body>
 </html>

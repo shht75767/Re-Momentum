@@ -1,0 +1,16 @@
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.music{
+    margin: 20px;
+    width: 45%;
+    height: 300px;
+    border-radius: 40px;
+    background-color: rgba(138, 144, 153, 0.5);
+}
+.music-today {
+    text-align: center;
+
+}

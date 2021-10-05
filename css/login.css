@@ -25,8 +25,11 @@
 
 }
 .paint-username{
+    font-size: 40px;
     font-style: italic;
-    color:darkslateblue;
+    color: yellow;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px red;
 }
 
 
