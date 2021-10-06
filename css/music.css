@@ -12,5 +12,18 @@
 }
 .music-today {
     text-align: center;
+    margin-bottom: 10px;
 
+}
+
+.music img {
+    padding-left : 65px;
+    width: 300px;
+    height: 200px;
+    margin-bottom: 7px;
+}
+.music img,
+.music span {
+    display: flex;
+    justify-content: center;
 }
